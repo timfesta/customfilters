@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Customfilters</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>Custom Filters</title>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
 
-  <body>
-    <%= yield %>
-  </body>
+</head>
+<body>
+	
+<nav class="navbar navbar-default navbar-static-top" id="ciabatta">
+    <div class="container-fluid" id="thenavbar">
+    	<div class="navbar-header">
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav">
+      			<ul class="nav navbar-nav navbar-left">
+            <img src="./assets/logo.png">
+      		</ul>
+      		<ul class="nav navbar-nav navbar-right">
+      	
+        		
+        		
+      		</ul>
+    	</div>
+  	</div>
+</nav>
+		
+<%= yield %>
+	
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
 </html>
