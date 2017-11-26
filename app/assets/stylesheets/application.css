@@ -19,12 +19,13 @@
 
  #ciabatta {
  	border-bottom: 0px;
+ 	background-color: white;
  }
  
  .navbar {
 	margin-bottom: 0px;
 }
 
-#thenavbar{
+/*#thenavbar{
 	background-color: white;
-}
+}*/
